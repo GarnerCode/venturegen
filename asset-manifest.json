@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/venturegen/static/css/main.e696d196.chunk.css",
+    "main.js": "/venturegen/static/js/main.6ea8230a.chunk.js",
+    "main.js.map": "/venturegen/static/js/main.6ea8230a.chunk.js.map",
+    "runtime-main.js": "/venturegen/static/js/runtime-main.aa37a276.js",
+    "runtime-main.js.map": "/venturegen/static/js/runtime-main.aa37a276.js.map",
+    "static/js/2.70550070.chunk.js": "/venturegen/static/js/2.70550070.chunk.js",
+    "static/js/2.70550070.chunk.js.map": "/venturegen/static/js/2.70550070.chunk.js.map",
+    "static/js/3.bef8662b.chunk.js": "/venturegen/static/js/3.bef8662b.chunk.js",
+    "static/js/3.bef8662b.chunk.js.map": "/venturegen/static/js/3.bef8662b.chunk.js.map",
+    "index.html": "/venturegen/index.html",
+    "static/css/main.e696d196.chunk.css.map": "/venturegen/static/css/main.e696d196.chunk.css.map",
+    "static/js/2.70550070.chunk.js.LICENSE.txt": "/venturegen/static/js/2.70550070.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.aa37a276.js",
+    "static/js/2.70550070.chunk.js",
+    "static/css/main.e696d196.chunk.css",
+    "static/js/main.6ea8230a.chunk.js"
+  ]
+}
