@@ -1,0 +1,169 @@
+/*Mixins*/
+@mixin primaryColor {
+  background-color: #841ee1;
+}
+@mixin textColor {
+  color: white;
+}
+@mixin borderRadius {
+  border-radius: 5px;
+}
+
+/*Overall Styles*/
+.App {
+  background-color: #1c1e27;
+  text-align: center;
+  width: 50vw;
+  margin: auto auto;
+  box-shadow: 2px 2px 5px black;
+  padding: 1em;
+  border-radius: 10px;
+  h1,
+  h2 {
+    @include textColor();
+  }
+  ul {
+    @include textColor();
+    list-style: none;
+    padding: 0;
+  }
+  hr {
+    border: 1px solid #841ee1;
+    width: 90%;
+  }
+  select {
+    @include primaryColor();
+    @include textColor();
+    @include borderRadius();
+    border: none;
+    font-size: 2em;
+    margin: 0 1em 0 1em;
+  }
+  button {
+    @include primaryColor();
+    @include textColor();
+    @include borderRadius();
+    border: none;
+    font-size: 2em;
+    margin: 1em;
+  }
+  #compMisc {
+    h1 {
+      display: inline-block;
+      padding: 1em;
+      text-align: center;
+    }
+  }
+}
+
+/*Media Queries*/
+@media only screen and (max-width: 330px) {
+  .App {
+    width: 80vw;
+    #compDropdown {
+      font-size: 0.5em;
+      select {
+        margin: 0.5em;
+        overflow-y: scroll;
+      }
+    }
+    #compStats {
+      ul {
+        font-size: 1.5em;
+      }
+    }
+    #compMisc {
+      h1 {
+        padding: 0.3em;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 380px) {
+  .App {
+    width: 80vw;
+    #compDropdown {
+      font-size: 0.5em;
+      select {
+        margin: 0.5em;
+        overflow-y: scroll;
+      }
+    }
+    #compStats {
+      ul {
+        font-size: 1.5em;
+      }
+    }
+    #compMisc {
+      h1 {
+        padding: 0.3em;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 420px) {
+  .App {
+    width: 80vw;
+    #compDropdown {
+      font-size: 0.5em;
+      select {
+        margin: 0.5em;
+        overflow-y: scroll;
+      }
+    }
+    #compStats {
+      ul {
+        font-size: 1.5em;
+      }
+    }
+    #compMisc {
+      h1 {
+        padding: 0.3em;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 780px) {
+  .App {
+    width: 80vw;
+    #compDropdown {
+      font-size: 0.8em;
+      select {
+        margin: 0.5em;
+        overflow-y: scroll;
+      }
+    }
+    #compStats {
+      ul {
+        font-size: 1.5em;
+      }
+    }
+    #compMisc {
+      h1 {
+        padding: 0.3em;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 1030px) {
+  .App {
+    width: 80vw;
+    #compDropdown {
+      font-size: 0.8em;
+      select {
+        margin: 0.5em;
+        overflow-y: scroll;
+      }
+    }
+    #compStats {
+      ul {
+        font-size: 1.5em;
+      }
+    }
+    #compMisc {
+      h1 {
+        padding: 0.3em;
+      }
+    }
+  }
+}

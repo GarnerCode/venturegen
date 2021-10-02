@@ -1,23 +1,22 @@
-import logo from './logo.svg';
+import React, {useState} from 'react'; 
 import './App.css';
+import Dropdown from './Components/Dropdown';
 
 function App() {
+  const [playerRace, setPlayerRace] = useState("Dragonborn");
+  const [playerClass, setPlayerClass] = useState("Barbarian");
+  const [playerLevel, setPlayerLevel] = useState(1);
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Dropdown
+        playerRace = {playerRace}
+        setPlayerRace = {setPlayerRace}
+        playerClass = {playerClass}
+        setPlayerClass = {setPlayerClass}
+        playerLevel = {playerLevel}
+        setPlayerLevel = {setPlayerLevel}
+      />
     </div>
   );
 }
